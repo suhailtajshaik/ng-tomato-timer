@@ -10,6 +10,7 @@ export class TimeNowComponent implements OnInit {
   constructor() { }
   myDate
   ngOnInit() {
+    this.myDate = new Date();
     this.utcTime();
   }
 
